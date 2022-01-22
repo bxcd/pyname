@@ -10,15 +10,18 @@
 import os
 
 def convert(address : str, start : int):
+
     os.chdir(address)
     prev_files = os.listdir(address)
     print(prev_files)
 
     i = start;
+
     for prev_name in prev_files:
+
         new_name = str(i)
         os.rename(prev_name, new_name)
-        i = i+1
+        i = (i + 1)
 
     new_files = os.listdir(address)
     print(new_files)
