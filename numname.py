@@ -5,7 +5,7 @@
 # python
 # import numname
 # instance = numname
-# instance.convert(r"C:\[files address]", 1)
+# instance.convert(r"[files address]", 1)
 
 import os
 
@@ -24,4 +24,4 @@ def convert(address : str, start : int):
     print(new_files)
 
 # internal call (uncomment to run)
-# convert(r"C:\[files address]", 1)
+# convert(r"[files address]", 1)
