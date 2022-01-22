@@ -11,6 +11,7 @@
 import os
 
 def convert(address : str, prev_key : str, new_key : str):
+
     os.chdir(address)
     prev_files = os.listdir(address)
     print(prev_files)
@@ -20,7 +21,9 @@ def convert(address : str, prev_key : str, new_key : str):
         prev_key = prev_key.lower()
         prev_name = prev_name.lower()
         key_find = prev_name.find(prev_key)
+
         if (key_find != -1):
+
             new_name = prev_name.replace(prev_key, new_key)
             os.rename(prev_name, new_name)
 
