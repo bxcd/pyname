@@ -5,7 +5,7 @@
 # python
 # import numname
 # instance = numname
-# instance.convert(r"C:files address]", 1)
+# instance.convert(r"C:\[files address]", 1)
 
 import os
 
