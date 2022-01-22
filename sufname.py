@@ -18,10 +18,10 @@ def convert(address : str, suffix : str):
 
         new_name_arr = prev_name.split(".")
         new_name = (new_name_arr[0] + suffix)
-        if new_name_arr.len < 1:
+        if len(new_name_arr) > 1:
             i = 1
-            while i < new_name_arr.len:
-                new_name = (new_name + new_name_arr[i])
+            while i < len(new_name_arr):
+                new_name = (new_name + "." + new_name_arr[i])
                 i = (i + 1)
 
         os.rename(prev_name, new_name)
@@ -30,4 +30,4 @@ def convert(address : str, suffix : str):
     print(new_files)
 
 # internal call (uncomment to run)
-# instance.convert(r"[files address]", "[suffix]")
+# convert(r"[files address]", "[suffix]")
