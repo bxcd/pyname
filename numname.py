@@ -1,6 +1,6 @@
 # Converts the name of each file in the parameter files address
-# to a number in an ordered sequence starting from the parameter integer;
-# ignores period delimeters up to the parameter index.
+# to a number in an ordered sequence starting from the parameter integer.
+# Ignores period delimeters up to the parameter index.
 #
 # command line call
 # python
