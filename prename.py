@@ -24,4 +24,4 @@ def convert(address : str, prefix : str):
     print(new_files)
 
 # internal call (uncomment to run)
-# instance.convert(r"[files address]", "[prefix]")
+# convert(r"[files address]", "[prefix]")
