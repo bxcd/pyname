@@ -1,6 +1,6 @@
 # Converts the name of each file in the parameter files address
 # by appending the parameter suffix to the previous file name.
-# ignores period delimeters up to the parameter index.
+# Ignores period delimeters up to the parameter index.
 #
 # command line call
 # python
