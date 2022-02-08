@@ -1,3 +1,3 @@
 # pyname
 
-Utility functions for renaming files.
+Filename utility functions made with Python
