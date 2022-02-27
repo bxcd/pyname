@@ -1,11 +1,12 @@
+# extname
 # Converts the name of each file in the parameter files address
 # by appending the parameter extentsion to the previous file name.
 #
-# command line call
+# From the command line, enter the following:
 # python
 # import extname
-# instance = extname
-# instance.convert(r"[files address]", "[extentsion]")
+# yourvar = extname
+# yourvar.convert(r"[files address]", "[extentsion]")
 
 import os
 
@@ -25,3 +26,15 @@ def convert(address : str, extentsion : str):
 
 # internal call (uncomment to run)
 # convert(r"[files address]", "[extentsion]")
+
+def help():
+
+    print("# extname\n" +
+	  "# Converts the name of each file in the parameter files address\n" +
+	  "# by appending the parameter extentsion to the previous file name.\n" +
+	  "#\n" +
+	  "# From the command line, enter the following:\n" +
+	  "# python\n" +
+	  "# import extname\n" +
+	  "# yourvar = extname\n" +
+	  "# yourvar.convert(r\"[files address]\", \"[extentsion]\")")

@@ -1,12 +1,13 @@
+# modname
 # Converts the name of each file in the parameter files address
 # by replacing the parameter previous key with the parameter new key.
 # Parameter previous key is case insensitive.
 #
-# command line call
+# From the command line, enter the following:
 # python
 # import modname
-# instance = modname
-# instance.convert(r"[files address]", "[old key]", "[new key]")
+# yourvar = modname
+# yourvar.convert(r"[files address]", "[old key]", "[new key]")
 
 import os
 
@@ -32,3 +33,16 @@ def convert(address : str, prev_key : str, new_key : str):
 
 # internal call (uncomment to run)
 # convert(r"[files address]", "[old key]", "[new key]")
+
+def help():
+
+    print("# modname\n" +
+	  "# Converts the name of each file in the parameter files address\n" +
+	  "# by replacing the parameter previous key with the parameter new key.\n" +
+	  "# Parameter previous key is case insensitive.\n" +
+	  "#\n" +
+	  "# command line call\n" +
+	  "# python\n" +
+	  "# import modname\n" +
+	  "# yourvar = modname\n" +
+	  "# yourvar.convert(r\"[files address]\", \"[old key]\", \"[new key]\")")

@@ -1,12 +1,13 @@
+# sufname
 # Converts the name of each file in the parameter files address
 # by appending the parameter suffix to the previous file name.
 # Ignores period delimeters up to the parameter index.
 #
-# command line call
+# From the command line, enter the following:
 # python
 # import sufname
-# instance = sufname
-# instance.convert(r"[files address]", "[suffix]", 1)
+# yourvar = sufname
+# yourvar.convert(r"[files address]", "[suffix]", [num ignored delims])
 
 import os
 
@@ -36,3 +37,16 @@ def convert(address : str, suffix : str, delim : int):
 
 # internal call (uncomment to run)
 # convert(r"[files address]", "[suffix]", 1)
+
+def help():
+
+    print("# sufname\n" +
+	  "# Converts the name of each file in the parameter files address\n" +
+	  "# by appending the parameter suffix to the previous file name.\n" +
+	  "# Ignores period delimeters up to the parameter index.\n" +
+	  "#\n" +
+	  "# From the command line, enter the following:\n" +
+	  "# python\n" +
+	  "# import sufname\n" +
+	  "# yourvar = sufname\n" +
+	  "# yourvar.convert(r\"[files address]\", \"[suffix]\", [num ignored delims])")
