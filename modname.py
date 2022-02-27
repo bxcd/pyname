@@ -1,6 +1,6 @@
 # modname
-# Converts the name of each file in the parameter files address
-# by replacing the parameter previous key with the parameter new key.
+# Converts the name of each file in the specified files address
+# by replacing the specified previous key with the specified new key.
 # Parameter previous key is case insensitive.
 #
 # From the command line, enter the following:
@@ -37,8 +37,8 @@ def convert(address : str, prev_key : str, new_key : str):
 def help():
 
     print("# modname\n" +
-	  "# Converts the name of each file in the parameter files address\n" +
-	  "# by replacing the parameter previous key with the parameter new key.\n" +
+	  "# Converts the name of each file in the specified files address\n" +
+	  "# by replacing the specified previous key with the specified new key.\n" +
 	  "# Parameter previous key is case insensitive.\n" +
 	  "#\n" +
 	  "# command line call\n" +

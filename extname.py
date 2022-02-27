@@ -1,6 +1,6 @@
 # extname
 # Converts the name of each file in the parameter files address
-# by appending the parameter extentsion to the previous file name.
+# by appending the specified extentsion to the previous file name.
 #
 # From the command line, enter the following:
 # python
@@ -30,8 +30,8 @@ def convert(address : str, extentsion : str):
 def help():
 
     print("# extname\n" +
-	  "# Converts the name of each file in the parameter files address\n" +
-	  "# by appending the parameter extentsion to the previous file name.\n" +
+	  "# Converts the name of each file in the specified files address\n" +
+	  "# by appending the specified extentsion to the previous file name.\n" +
 	  "#\n" +
 	  "# From the command line, enter the following:\n" +
 	  "# python\n" +

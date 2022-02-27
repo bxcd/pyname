@@ -1,6 +1,6 @@
 # prename
-# Converts the name of each file in the parameter files address
-# by appending the parameter prefix to the previous file name.
+# Converts the name of each file in the specified files address
+# by appending the specified prefix to the previous file name.
 #
 # From the command line, enter the following:
 # python
@@ -30,8 +30,8 @@ def convert(address : str, prefix : str):
 def help():
 
     print("# prename\n" +
-	  "# Converts the name of each file in the parameter files address\n" +
-	  "# by appending the parameter prefix to the previous file name.\n" +
+	  "# Converts the name of each file in the specified files address\n" +
+	  "# by appending the specified prefix to the previous file name.\n" +
 	  "#\n" +
 	  "# From the command line, enter the following:\n" +
 	  "# python\n" +
