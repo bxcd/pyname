@@ -1,12 +1,13 @@
+# numname
 # Converts the name of each file in the parameter files address
 # to a number in an ordered sequence starting from the parameter integer.
 # Ignores period delimeters up to the parameter index.
 #
-# command line call
+# From the command line, enter the following:
 # python
 # import numname
-# instance = numname
-# instance.convert(r"[files address]", 1, 1)
+# yourvar = numname
+# yourvar.convert(r"[files address]", [num sequence initial], [num ignored delims])
 
 import os
 
@@ -39,3 +40,16 @@ def convert(address : str, start : int, delim : int):
 
 # internal call (uncomment to run)
 # convert(r"[files address]", 1, 1)
+
+def help():
+
+    print("# numname\n" +
+	  "# Converts the name of each file in the parameter files address\n" +
+	  "# to a number in an ordered sequence starting from the parameter integer.\n" +
+	  "# Ignores period delimeters up to the parameter index.\n" +
+	  "#\n" +
+	  "# From the command line, enter the following:\n" +
+	  "# python\n" +
+	  "# import numname\n" +
+	  "# yourvar = numname\n" +
+	  "# yourvar.convert(r\"[files address]\", [num sequence initial], [num ignored delims])")

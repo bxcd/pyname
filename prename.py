@@ -1,11 +1,12 @@
+# prename
 # Converts the name of each file in the parameter files address
 # by appending the parameter prefix to the previous file name.
 #
-# command line call
+# From the command line, enter the following:
 # python
 # import prename
-# instance = prename
-# instance.convert(r"[files address]", "[prefix]")
+# yourvar = prename
+# yourvar.convert(r"[files address]", "[prefix]")
 
 import os
 
@@ -25,3 +26,16 @@ def convert(address : str, prefix : str):
 
 # internal call (uncomment to run)
 # convert(r"[files address]", "[prefix]")
+
+def help():
+
+    print("# prename\n" +
+	  "# Converts the name of each file in the parameter files address\n" +
+	  "# by appending the parameter prefix to the previous file name.\n" +
+	  "#\n" +
+	  "# From the command line, enter the following:\n" +
+	  "# python\n" +
+	  "# import prename\n" +
+	  "# yourvar = prename\n" +
+	  "# yourvar.convert(r\"[files address]\", \"[prefix]\")")
+
