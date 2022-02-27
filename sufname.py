@@ -10,7 +10,7 @@
 
 import os
 
-def convert(address : str, suffix : str; delim : int):
+def convert(address : str, suffix : str, delim : int):
 
     os.chdir(address)
     prev_files = os.listdir(address)
