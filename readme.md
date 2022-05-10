@@ -4,7 +4,7 @@ Filename utility functions made with Python.
 
 To use: 
 * Run python (enter 'python')
-* Import the desired function(s) (enter 'import [func name]'
+* Import the desired function(s) (enter 'import [func name]')
 * Assign a function instance to a variable (enter '[var name] = [func name]')
 * Invoke from the variable either the convert([params...]) or help() functions
 * The help() function specifies the parameters for the convert function.
