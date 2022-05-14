@@ -1,6 +1,6 @@
 # pyname
 
-Custom utility functions for bulk editing of filenames. 
+Custom utility functions for bulk revision of filenames. 
 
 Made with Python. 
 
